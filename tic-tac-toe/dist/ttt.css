@@ -1,0 +1,58 @@
+
+h1 {
+  display: block;
+  margin: auto;
+}
+
+figure {
+  display: block;
+  margin: auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.grid-styling {
+  display: flex;
+  width: 606px;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.grid-styling li {
+  border: 1px solid black;
+  list-style: none;
+
+}
+
+.cell {
+  width: 200px;
+  height: 200px;
+}
+
+.unclicked_cell {
+  background-color: gray;
+}
+
+.unclicked_cell:hover {
+  background-color: gold;
+}
+
+.clicked_cell {
+  background-color: darkgray;
+}
+
+.x {
+  background-image: url('../src/x.png');
+  background-size: contain;
+}
+
+.o {
+  background-image: url('../src/o.jpg');
+  background-size: contain;
+}
