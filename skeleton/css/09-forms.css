@@ -1,0 +1,23 @@
+/* PHASE 9: Forms */
+.input {
+  background-color: grey;
+  float: left;
+  width: 510px;
+  padding: 10px;
+  margin: 0px 10px;
+}
+
+.content-main {
+  display: flex;
+
+}
+
+.profile-pic{
+  float: left;
+}
+
+.input_field{
+  background-color: white;
+  border: 1px solid grey;
+  max-width: 510px;
+}
