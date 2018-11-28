@@ -1,0 +1,63 @@
+h1 {
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+figure {
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.hanoi {
+  height: 300px;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.hanoi ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  width: 300px;
+  height: 306px;
+  background-color: gray;
+  margin: 10px;
+  padding: 0;
+}
+.hanoi ul:hover {
+  background-color: gold;
+}
+
+.hanoi ul li {
+  border: 1px solid black;
+  list-style: none;
+}
+
+.disc {
+  background-color: brown;
+  height: 100px;
+}
+
+.size1 {
+  width: 100px;
+}
+
+.size2 {
+  width: 200px;
+}
+
+.size3 {
+  width: 300px;
+}
