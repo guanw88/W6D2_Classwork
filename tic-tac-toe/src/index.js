@@ -6,5 +6,3 @@ const Game = require('../node_solution/game');
     const view = new View(game, $('.ttt'));
 
   });
-
-  //create new game
